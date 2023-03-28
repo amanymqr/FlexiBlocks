@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
+
+
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    /* font-size: 25px; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.dark-mode {
+    background-color: rgb(62, 62, 62);
+    color: white;
+}
+.navbar ul a{
+    font-size: 15px;
+    margin: 0 8px;
+    color: #000;
+    font-weight: 500;
+    transition: all .4s ease;
+}
+.navbar ul a:hover{
+    color: #239BFD;
+}
+.navbar .btn1{
+    background-color: #A855F7;
+    font-size: 14px;
+    padding: 5px 18px;
+    font-weight: 500;
+
+}
+.dropdown-menu{
+    border: 1px solid #e8ebee;
+    padding: 15px 10px;
+    font-weight: 400;
+    box-shadow: 0 5px 8px #f0f1f1;
+
+}
+.dropdown-menu a:hover{
+    background: none;
+
+}
+.dropdown-menu li i{
+    color: #a9c4da;
+    margin: 0 10px;
+}
+
+.hero-content{
+    margin-top: 150px;
+}
+.hero h1 ,
+.hero h3{
+    color: #2D3748;
+
+}
+.hero h1{
+    font-weight: bold;
+    padding: 0 200px;
+}
+@media(max-width:986px){
+    .hero h1{
+        padding: 0 ;
+    }
+}
+.hero p{
+    color: #bbbec0;
+    margin: 25px 0;
+    font-size: 18px;
+}
+@media(max-width:986px){
+    .hero p{
+        font-size: 14px;
+    }
+}
+.hero .btn2,
+.hero .btn3{
+    font-size: 15px;
+    padding: 12px 35px;
+    font-weight: 500;
+}
+.hero .btn2{
+    background-color: #A855F7;
+    transition: all .2s ease-in;
+}
+.hero .btn2:hover{
+    padding: 12px 40px;
+    background-color: #420080;
+
+}
+.hero .btn3 {
+    color: #239BFD;
+    transition: all .2s ease-in;
+}
+.hero .btn3:hover{
+    background-color: #E3EEFA;
+    padding: 12px 40px;
+
+}
+
+.marketing h2{
+    font-weight: 700;
+    color: #2D3748;
+}
+.marketing .p1{
+    color: #bbbec0;
+    font-size: 18px;
+    font-weight: 500;
+}
+@media(max-width:986px){
+    .marketing p{
+        font-size: 14px;
+    }
+}
+.marketing .btn-i{
+    background-color: #EDF2F7;
+    color: #A855F7;
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+.marketing h3{
+    color: #2D3748;
+}
+.marketing .row p{
+    font-size: 15px;
+    color: #9c9d9e;
+}
+.marketing ul li {
+    color: #6f7275;
+}
+.marketing i{
+    color: #81B441;
+}
+.card{
+    border-radius:15px ;
+    border: none;
+}
+
+.features h2 ,
+.features2 h2
+{
+    font-weight: 700;
+    color: #2D3748;
+    font-size: 35px;
+}
+.features h4,
+.features2 h4{
+    font-weight: 700;
+    font-size: 20px;
+    color: #777AF2;
+}
+.features p ,
+.features2 p
+{
+    font-size: 18px;
+    color: #9c9d9e;
+}
+.features li{
+    font-weight: 600;
+    color: #2D3748;
+}
+.features i{
+    color: #A855F7;
+}
+
+.why{
+    margin: 120px 0;
+    background-color: #EDF2F7;
+}
+.why h4{
+    font-weight: 700;
+    color: #718096;
+}
+.why h2{
+    font-weight: 700;
+    color: #2D3748;
+    margin-top: 20px;
+}
+
+.why .row1{
+    margin: 80px 0;
+}
+.why i{
+    color: #8b8d91;
+}
+.why h3{
+    color: #2D3748;
+}
+.why p{
+    color: #9c9d9e;
+}
+.features2 i{
+    color: #A855F7;
+}
+.features2 h6{
+    color: #8b8d91;
+}
+.performance{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.performance h5{
+    color: #718096;
+}
+.performance h2{
+    color: #6366F1;
+    margin: 20px 0;
+}
+.performance p{
+    color: #9c9d9e;
+    font-size: 16px;
+}
+.performance .btn4 
+{
+    margin-top: 30px;
+    background-color: #A855F7;
+    padding: 12px 35px;
+    transition: all .2s ease-in;
+
+}
+.performance .btn4:hover
+
+{
+    padding: 13px 42px;
+    background-color: #3e0d6b;
+}
+
+.about .row{
+    margin-top: 80px;
+}
+.about .i1{
+    color: #777AF2;
+}
+.about i{
+    color: #A855F7;
+}
+.about h3 ,
+.about p{
+    color: #484849;
+}
+
+.start .start-p{
+    color: #777AF2;
+}
+.start .btn5{
+    background-color: #A855F7;
+    padding: 12px 35px;
+    transition: all .2s ease-in;
+}
+.start .btn5:hover{
+    padding: 13px 42px;
+    background-color: #3e0d6b;
+}
+.blog .blog-p{
+    font-size: 15px;
+    color: #bbbec0;
+}
+footer i{
+    color: #A855F7;
+}
+
+footer h6{
+    color: #777AF2;
+}
+
+
+.btns{
+    position: fixed;
+}
+
+.btn8{
+    left: 0%;
+    top: 40%;
+    box-shadow: 0 4px 5px #bbbec0;
+    border-radius: 8px;
+    background-color: #fff;
+    position: fixed;
+
+}
+.btn9{
+    left: 0%;
+    top: 30%;
+
+    box-shadow: 0 4px 5px #bbbec0;
+    border-radius: 8px;
+    background-color: #fff;
+    position: fixed;
+
+
+}
